@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+    <head>
+        <!-- title -->
+        <title>YouTube</title>
+
+        <!-- css dosyasını bağlama -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+
+
+    <body>
+
+        <h1 style="color: blue;">Header Tag'leri ve Paragraph</h1>
+
+        <h1 class="className">Header 1</h1>
+        <h2 id="idName">Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        
+        <p>Paragraph</p>
+        <p class="className">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Molestias ducimus velit temporibus debitis, distinctio in facere dolore mollitia laborum. Alias 
+            maxime totam, cupiditate quisquam quis odio incidunt 
+            recusandae distinctio voluptatibus.</p>
+
+
+        <!-- Paragraf Formatlama -->
+        <h2>Paragraf Formatlama</h2>
+        <!-- Link: https://www.w3schools.com/html/html_formatting.asp -->
+        <p >Lorem ipsum, dolor sit amet <ins>consectetur adipisicing elit.</ins> Facilis<sub>20</sub> nostrum eius, architecto suscipit doloribus, neque qui esse quibusdam <em>Merhabalar</em> <mark>vel dolore rerum, provident voluptas velit quia vero.</mark> Ut libero veritatis repellat.</p>
+        <p>x<sub>2</sub><sup>3</sup> + x<sub>1</sub><sup>6</sup> = 123</p>
+        
+
+        <!-- Yorum Satırı -->
+        <!-- VS Code'ta Türkçe Klavyede Ctrl + Ö ile yorum satırına al, yorum satırından çıkar işlemleri yapılabilir  -->
+        <!-- VS Code'ta default olarak Ctrl + K, Ctrl + C veya Ctrl + K, Ctrl + U ile yorum satırına al, yorum satırından çıkar işlemleri yapılabilir  -->
+
+
+        <!-- br ve hr -->
+        <!-- br bir satır boşluk bırakır -->
+        <!-- hr genişlik boyu çizgi çeker -->
+        <hr>
+        <br>
+
+
+        
+        <!-- Div ve style kullanımı -->
+        <h1>Div Kullanımı</h1>
+        <div style="padding: 20px; border: 5px solid black; margin: 30px; background-color: beige;">
+            <div style="width: 100px; height: 100px; background-color: blue;"></div>
+            <div style="width: 450px; height: 100px; background-color: red;"></div>
+            <div style="width: 240px; height: 100px; background-color: green;"></div>
+        </div>
+
+        
+        <hr>
+        <!-- a tagi kullanımı -->
+        <h1><u>Linkler</u></h1>
+        <br>
+
+        <div>
+            <a class="link" target="_blank" href="https://www.youtube.com/">Websitesi</a> 
+            <a style="font-weight: bold;" href="mailto:dogukantopcu@std.iyte.edu.tr">Mailim</a>
+            <a href="tel:+905531983575">Telefonum</a>
+    
+            <a href="#id">Sayfa içi</a>
+        </div>
+
+        <br>
+
+        <hr>
+        <!-- Resim Ekleme -->
+        <h1>Resim Ekleme</h1>
+        <img class="image" src="circle.png" alt="resim içeriği">
+        <br>
+
+        <hr>
+
+        <!-- iframe ve flexbox kullanımı -->
+        <h1>Iframe</h1>
+        <div style="width: 100; border: 1px solid black; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px 0 10px 0; margin: 20px 0 40px 0; background-color: bisque;">
+            <iframe width="50%" height="500px" src="https://iyteyazilim.com/" title="Yazılım Topluluğu"></iframe>
+        </div>
+
+        <hr>
+        <!-- listeler -->
+
+        <h1>Listeler</h1>
+        <div>
+            <h3>Malzemeler</h3>
+            <ul class="list">
+                <li>Domates</li>
+                <li>Domates</li>
+                <li>Domates</li>
+                <li>Domates</li>
+                <li>Domates</li>
+            </ul>
+        </div>
+
+
+        <hr>
+        <!-- Table ve hover Kullanımı -->
+
+        <h1>Tablolar</h1>
+        <div style="padding: 0 50px 0 50px; margin: 20px 0 20px 0;">
+            <table class="table" style="width:100%">
+              <tr>
+                <th>Üye İsmi</th>
+                <th>Üye Okul No</th>
+                <th>Üye Tel No</th>
+              </tr>
+              <tr>
+                <td>Doğukan Topçu</td>
+                <td>290201036</td>
+                <td>05531983575</td>
+              </tr>
+          
+              <tr>
+                <td>Doğukan Topçu</td>
+                <td>290201036</td>
+                <td>05531983575</td>
+              </tr>
+              <tr>
+                <td>Doğukan Topçu</td>
+                <td>290201036</td>
+                <td>05531983575</td>
+              </tr>
+            </table>
+        </div>
+
+
+
+        <hr>
+        <!-- flexbox mimarisi ve çoklu class isimleri -->
+        <h1>Flexbox mimarisi</h1>
+        <div class="flexbox flexbox-1">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <div class="flexbox flexbox-2">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <div class="flexbox flexbox-3">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <div class="flexbox flexbox-4">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <div class="flexbox flexbox-5">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <div class="flexbox flexbox-6">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+        
+        <div class="flexbox flexbox-7">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <div class="flexbox flexbox-8">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <!-- flex-wrap: wrap -- Responsive design için kullanılır -->
+        <!-- Mobil moda geçerek test edebilirsiniz -->
+        <div class="flexbox flexbox-9">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <!-- flex-wrap: wrap-reverse -->
+        <!-- Mobil moda geçerek test edebilirsiniz -->
+        <div class="flexbox flexbox-10">
+            <div class="item item1">İçerik 1</div>
+            <div class="item item2">İçerik 2</div>
+            <div class="item item3">İçerik 3</div>
+            <div class="item item4">İçerik 4</div>
+            <div class="item item5">İçerik 5</div>
+            <div class="item item6">İçerik 6</div>
+            <div class="item item7">İçerik 7</div>
+        </div>
+
+        <br>
+        <br>
+    </body>
+</html>
